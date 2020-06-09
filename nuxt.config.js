@@ -1,5 +1,11 @@
+require('dotenv').config()
 
 export default {
+  env: {
+    baseUrl: process.env.DOMAIN || 'http://dd:3000',
+    API_KEY: process.env.API_KEY || '',
+    Authorization: process.env.AUTHORIZATION
+  },
   mode: 'universal',
   /*
   ** Headers of the page
@@ -46,7 +52,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }

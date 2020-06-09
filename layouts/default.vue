@@ -5,7 +5,12 @@
 </template>
 
 <style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css');
+:root{
+  --main-bg-color:#0ea8da;
+}
 html {
+  /* font-weight: bold; */
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;

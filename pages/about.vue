@@ -55,7 +55,7 @@ export default {
   //   });
   // },
   async created() {
-    console.log("Hello");
+    // console.log("Hello");
     const config = {
       headers: {
         "Accept": "application/json",
